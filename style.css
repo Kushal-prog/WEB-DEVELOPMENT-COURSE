@@ -1,0 +1,34 @@
+html {
+    font-size: 50px; /* px means "pixels": the base font size is now 10 pixels high  */
+    font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google fonts */
+    background-color: #ff00f2
+}
+
+h1#name {
+  font-size: 100px;
+  color: rgb(253, 253, 228);
+  text-align: center;
+  
+}
+h1#name:hover {
+  text-shadow:5px 5px 5px aqua;
+  /* first value is horizantal offset: how far it moves across */
+  /* second value is vertical offset: how far it moves up and down*/
+  /* third value is blur radius: more shadow or fuzzes */
+}
+
+img {
+  display: block;
+  margin:auto;
+  width: 500px;
+  height: 600px;
+}
+
+body {
+  background-color: orange; /* Background color of the body*/
+  margin: 0 auto; /* margin affects the elements top and bottom */
+  width: 1000px; 
+  padding: 0 20px 20px 20px; /* effects the elements left and right */
+  border: 20px solid black;
+}
+
